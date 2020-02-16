@@ -150,6 +150,8 @@ public abstract class MesquiteTrunk extends MesquiteModule {
 
 	protected static Image logo;
 
+	public abstract void init();
+
 	public abstract void exit(boolean emergency, int status);
 
 	@Override
